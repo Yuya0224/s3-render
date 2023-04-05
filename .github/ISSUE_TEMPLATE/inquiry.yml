@@ -1,0 +1,26 @@
+name: 📝 Inquiry
+description: 開発チームへの依頼
+title: '📝'
+labels: inquiry
+body:
+  - type: textarea
+    id: desc
+    attributes:
+      label: Describe the issue
+      description: 問題について簡潔に説明してください
+    validations:
+      required: true
+  - type: textarea
+    id: content
+    attributes:
+      label: Content of contact
+      description: 依頼内容 (slackのURLとslackの投稿をスクショ)
+    validations:
+      required: false
+  - type: textarea
+    id: Additionalcontext
+    attributes:
+      label: Additional context
+      description: Add any other context about the problem here.
+    validations:
+      required: false
